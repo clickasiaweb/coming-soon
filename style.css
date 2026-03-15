@@ -93,11 +93,11 @@ margin-bottom:40px;
 }
 
 .logo {
-max-width:300px;
+max-width:350px;
 height:auto;
 margin-bottom:20px;
 animation:glow 3s ease-in-out infinite alternate;
-filter: brightness(1.2) contrast(1.1);
+filter: drop-shadow(0 0 20px rgba(99,102,241,0.3)) drop-shadow(0 0 40px rgba(139,92,246,0.2));
 }
 
 @keyframes glow {
@@ -260,7 +260,7 @@ width:100%;
 
 @media (max-width:768px) {
 .logo {
-max-width:250px;
+max-width:280px;
 }
 .tagline {
 font-size:28px;
